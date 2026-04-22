@@ -1,0 +1,140 @@
+  * {
+        margin: 2;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+         background: linear-gradient(to top, #e06d14, #d6480b);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flow-root;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .topo {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .banner {
+        background: linear-gradient(135deg, #cf3314, #e04014);
+        color: #fff;
+        text-align: center;
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .banner p {
+        font-size: 1.1rem;
+        opacity: 0.95;
+    }
+
+    .menu {
+        background-color: #2a5298;
+        border-bottom: 10px solid #0f0f0f;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        margin: 3px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 18px 22px;
+        text-decoration: none;
+        color: #1e3c72;
+        font-weight: bold;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .menu a:hover {
+        background-color: #1e3c72;
+        color: #fff;
+    }
+
+    .conteudo {
+        padding: 40px 0;
+    }
+
+    .destaque {
+        background-color: #fff;
+        padding: 35px;
+        border-radius: 12px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        text-align: center;
+    }
+
+    .destaque h2 {
+        font-size: 2rem;
+        color: #1e3c72;
+        margin-bottom: 15px;
+    }
+
+    .destaque p {
+        font-size: 1rem;
+        max-width: 800px;
+        margin: 0 auto 25px;
+        color: #555;
+    }
+
+    .botao {
+        display: inline-block;
+        background-color: #1e3c72;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        cursor: not-allowed;
+    }
+
+    ul {
+        background-color: rgb(153, 155, 171);
+        list-style: none;
+        /*Eliminar as marcações*/
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    li {
+        display: inline-block;
+        /* Menu em linha*/
+    }
+
+    a {
+        background-color: rgb(196, 203, 233);
+        border-radius: 15px;
+        color: black;
+        text-decoration: none;
+        /*Eliminar as linhas do texto*/
+    }
+
+    a:hover {
+        background-color: rgb(115, 115, 210);
+    }

@@ -1,0 +1,117 @@
+    * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to top, #e06d14, #d6480b);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .principal {
+            margin-top: 2%;
+            width: 100%;
+            max-width: 500px;
+            padding: 4%;
+            text-align: center;
+            background-color: #d8e0e8;
+            border-radius: 20px;
+            opacity: 0.8;
+        }
+
+        img {
+            width: 60%;
+            height: 60%;
+            margin: 30px auto;
+            display: block;
+        }
+
+        h2 {
+            font-size: 25px;
+            color: rgb(150, 48, 22);
+            margin: 20px;
+        }
+
+        p {
+            color: rgb(150, 48, 22);
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            font-size: 18px;
+            color: rgb(150, 48, 22);
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        select,
+        option {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+            border: solid;
+            background-color: #f0f1f2;
+            font-size: 1em;
+            color: rgb(150, 48, 22);
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #e06d14;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+
+            background: rgb(150, 48, 22);
+            ;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #178eca;
+        }
+
+        #confirmar {
+            width: 100%;
+            padding: 15px;
+            background-color: #5c6e77;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #confirmar:hover {
+            background-color: #0e79af;
+        }
+
+        input[type="reset"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #d1ae44;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+ 
